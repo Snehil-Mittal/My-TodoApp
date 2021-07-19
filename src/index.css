@@ -5,9 +5,29 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+   background-image: url(./todo-app.svg);
+   height: 100%;
+   background-repeat: no-repeat;
+   background-size: cover;
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.todo{
+  background: white;
+  opacity: 1;
+  color: black;
+  margin-bottom: 100px;
+  cursor: pointer;
+}
+.collection{
+  padding-left: 10px !important;
+}
+
+label{
+  font-size: 15px;
 }
