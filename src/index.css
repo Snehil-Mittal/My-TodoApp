@@ -31,3 +31,16 @@ code {
 label{
   font-size: 15px;
 }
+
+button{
+  margin-top: 25px;
+  margin-left: -15px;
+  border-radius: 20px;
+  padding: 10px;
+  float:left;
+  font-weight: 700;
+  outline: none;
+}
+button::hover{
+  background-color: white;
+}
