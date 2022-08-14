@@ -1,49 +1,52 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-   background-image: url(./todo-app.svg);
-   height: 100%;
-   background-repeat: no-repeat;
-   background-size: cover;
-
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+		'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+		sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-image: url(./todo-app.svg);
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+		monospace;
 }
 
-.todo{
-  background: white;
-  opacity: 1;
-  color: black;
-  margin-bottom: 100px;
-  cursor: pointer;
+.todo {
+	background: white;
+	opacity: 1;
+	color: black;
+	margin-bottom: 100px;
+	cursor: pointer;
 }
-.collection{
-  padding-left: 10px !important;
-}
-
-label{
-  font-size: 15px;
+.collection {
+	padding-left: 10px !important;
 }
 
-button{
-  margin-top: 25px;
-  margin-left: -15px;
-  border-radius: 20px;
-  padding: 10px;
-  float:left;
-  font-weight: 700;
-  outline: none;
+label {
+	font-size: 15px;
 }
-button::hover{
-  background-color: white;
+
+button {
+	margin-top: 25px;
+	margin-left: -15px;
+	border-radius: 20px;
+	padding: 10px;
+	float: left;
+	font-weight: 700;
+	outline: none;
 }
-h1{
-  margin-top: 100px;
+button::hover {
+	background-color: white;
+}
+h1 {
+	margin-top: 100px;
+}
+.coloring a {
+	font-weight: 500;
+	color: black !important;
 }
